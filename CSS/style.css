@@ -91,6 +91,49 @@ p {
     margin-right: auto;
 }
 
+main .centralizado {
+    text-align: center;
+}
+
+.centralizado p {
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.Integrantes section {
+    margin-top: 32px;
+}
+
+.Integrantes {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Integrante {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin: 0 15px 24px 15px;
+    padding: 32px;
+}
+
+.Integrante img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 16px;
+}
+
+.conteudo {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    background-color: rgb(247, 255, 255);
+    padding: 32px;
+    border-radius: 8px;
+    text-align: left;
+ }
 footer {
     background-color: rgb(236, 147, 53);
     color: beige;
