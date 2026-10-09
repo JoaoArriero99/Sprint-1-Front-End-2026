@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Trykker&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <header>
-        <div class="container">
-            <nav>
-                <a class="logo" href="index.html">Sprint 1-Turma do Bem</a>
-                <ul>
-                    <li><a class="ativo" href="index.html">Página Inicial</a></li>
-                    <li><a href="integrantes.html">Integrantes</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-                <input type="text" placeholder="Pesquisar">
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a class="ativo" href="index.html">Página Inicial</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <input type="text" placeholder="Pesquisar">
+        </nav>
     </header>
 
     <main>
-        <article class="article">
-            <section >
-                <h2>Primeiro Objetivo</h2>
-                <p>Descrever</p>
-            </section>
-            <section>
-                <h2>Segundo Objetivo</h2>
-                <p>Descrever</p>
-            </section>
-            <section>
-                <h2>Terceiro Objetivo</h2>
-                <p>Descrever</p>
-            </section>
-        </article>
+        <section class="imagem-inicial">
+            <div class="texto-logo">
+                <h1 class="texto-inicial">Você sabe o valor de um <span
+                        style="font-size: 1.5em; color: #f68e23;" >Sorriso?</span></h1>
+                <img class="logo-barra" src="Imagens/logo.png" alt="Imagem da logo com uma barra na esquerda">
+            </div>
+
+            <div class="botao-inicio">
+                <button>Cadastre-se</button>
+                <button>Doe já!</button>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -56,6 +59,7 @@
             <p>&copy;2026 FIAP Turma do Bem </p>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
