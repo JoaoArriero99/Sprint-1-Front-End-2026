@@ -1,0 +1,63 @@
+.trykker-regular {
+  font-family: "Trykker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imagem-inicial{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    margin-top: -7vh;
+    z-index: 0;
+    position: relative;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Imagens/inicialSorriso.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texto-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.texto-inicial{
+    color: #ffff;
+    font-family: "Trykker", serif;
+    font-style: normal;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    font-size: 2.8em;
+    width: 28vw;
+    border: none;
+}
+
+.logo-barra{
+    width: 28vw;
+    height: 28vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.botao-inicio{
+    margin-top: 20vh;
+}
+
+.botao-inicio button{
+    font-family: poppins, sans-serif;
+    background-color: rgba(94, 94, 94, 0.3);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.7em;
+    height: 5vh;
+    width: 20vw;
+    margin-right: 3vw;
+}
