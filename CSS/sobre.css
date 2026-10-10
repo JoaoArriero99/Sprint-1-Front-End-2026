@@ -1,0 +1,56 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao h1 {
+    font-family: poppis, sans-serif;
+    font-size: 3em;
+    color: #F68E23;
+    margin-bottom: 5vh;
+
+}
+
+.bloco-apresentacao {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin-bottom: 10vh;
+    width: 60vw;
+}
+
+.bloco-apresentacao p {
+    margin: 10px;
+    color: black;
+    font-family: poppins, sans-serif;
+    font-size: 1.3em;
+}
+
+.propostas{
+ display: flex;
+ align-items: center;
+flex-direction: column;
+}
+
+.propostas h1{
+    font-family: poppis, sans-serif;
+    font-size: 3em;
+    color: #97C83B;
+    margin-bottom: 5vh;
+    background-color: rgba(151, 200, 59, 0.2);
+    height: 5vh;
+    display: flex;
+    width: 99vw;
+    align-items: center;
+    overflow-y:hidden;
+
+}
+
+.propostas h2{
+    font-family: poppis, sans-serif;
+    font-size: 2.5em;
+    color: #F68E23;
+    margin-bottom: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+}
