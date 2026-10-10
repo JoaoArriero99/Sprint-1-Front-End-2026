@@ -1,0 +1,61 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: poppis, sans-serif;
+    font-size: 3em;
+    color: #F68E23;
+    margin-bottom: 5vh;
+
+}
+
+.bloco-apresentacao {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0.1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+
+.bloco-apresentacao p {
+    color: black;
+    font-family: poppins, sans-serif;
+    font-size: 1.3em;
+}
+
+.fotos-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixas-integrantes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10vw;
+}
+
+.caixa {
+    width: 30vw;
+    height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    background-color: rgba(246, 142, 35, 0.6);
+}
+
+.caixa p{
+    font-family: poppis, sans-serif;
+    font-size: 1.5em;
+    margin-left: 0.5vw;
+    color: black;
+}
+
+.caixa img {
+    width: 28vw;
+    height: 38vh;
+    margin: 1.5vh;
+    background-size: cover;
+    background-position: center;
+}

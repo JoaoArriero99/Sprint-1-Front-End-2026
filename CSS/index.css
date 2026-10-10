@@ -14,7 +14,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Imagens/inicialSorriso.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
