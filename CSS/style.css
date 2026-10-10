@@ -13,7 +13,7 @@
 
 body {
     background-color: rgb(255, 241, 204);
-
+    overflow-x: hidden;
 }
 
 header {
@@ -104,4 +104,20 @@ footer a {
     display: block;
     margin-top: 8px;
     font-size: 13px;
+}
+
+.traco-laranja{
+    width: 3vw;
+    border-radius: 2vh;
+    height: 30vh;
+    position: absolute;
+    background-color: rgba(246, 142, 35, 0.3);
+}
+
+.bola-verde{
+    height: 60vh;
+    width: 40vw;
+    background-color:rgba(151, 200, 59, 0.4);
+    position: absolute;
+    border-radius: 35vh;
 }
